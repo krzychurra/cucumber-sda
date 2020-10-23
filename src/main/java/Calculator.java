@@ -1,10 +1,11 @@
 public class Calculator {
-    public static int addTwoNumbers(int a, int b) {
+    public int addTwoNumbers(int a, int b) {
         return a + b;
     }
 
     public static void main(String[] args) {
-        int result = addTwoNumbers(2, 2);
+        Calculator calculator = new Calculator();
+        int result = calculator.addTwoNumbers(2, 2);
         System.out.println(result);
     }
 }

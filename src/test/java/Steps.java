@@ -20,7 +20,7 @@ public class Steps {
 
     @When("I add {int} and {int}")
     public void iAddAnd(int arg0, int arg1) {
-        result = Calculator.addTwoNumbers(arg0, arg1);
+        result = calculator.addTwoNumbers(arg0, arg1);
     }
 
     @Then("Result is {int}")
